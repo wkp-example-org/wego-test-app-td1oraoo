@@ -1,0 +1,7 @@
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  name: wego-test-app-td1oraoo
+spec:
+  path: ./
+  url: ssh://git@github.com/wkp-example-org/wego-test-app-td1oraoo.git
